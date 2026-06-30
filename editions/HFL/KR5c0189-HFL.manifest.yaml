@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0189/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5c0189/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 玄門十事威儀
+  date: '2015-08-29 00:54:13.456086'
+  source:
+    repository: kanripo
+    path: KR5c0189
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0189_000-HFL.yaml, hash: 'sha256:e7c7c62d7bf4a662a4054e8b6b3d3a89f035585287eaf09d9bf7020db30d2b20'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0189_000-HFL.markers.yaml, hash: 'sha256:73601c5ef34fd475fc5db7c033a47d514109b7c45fcc5ab7f3d380cf7c580479'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0189_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 4861
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:a380b4a7b7ff03f84da9edfde249be078a440dd6be05bbbeae3caa3e1fed4744

@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0189/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0189/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 玄門十事威儀
+  date: '2015-08-29 00:54:13.456086'
+  source:
+    repository: kanripo
+    path: KR5c0189
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0189_000-ZTDZ.yaml, hash: 'sha256:fd3887eb555431e8f81f51d5d8b9100604aed186f7378bc0d1ac0d4010789765'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0189_000-ZTDZ.markers.yaml, hash: 'sha256:b3aea9b5dd452b7dc8f6c52b9916427707f530b77677eca794b1ac40b47f398f'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0189_SJB_000-180259b
+    span:
+    - body
+    - 0
+    - 4861
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:ecaabb12646b4993a0b5dcd50fb42ce8793612d1da05b53f09d693ece2e4cf97
